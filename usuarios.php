@@ -11,11 +11,11 @@ require_once('controlador/cargar.php');
 <body>
 	<h1>Clientes</h1>
     <div>
-
     </div>
+   
 <?php
 	 if(isset($_GET['buscar'])){
-buscar($_GET['buscar']);
+    buscar($_GET['buscar']);
 	 }else{
 cargar();
 	 }

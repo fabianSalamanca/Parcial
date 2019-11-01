@@ -76,7 +76,8 @@ foreach ($filas as $fila) {
 	echo "<td>".$fila['creditLimit']."</td>";
 	echo "</tr>";
 }
-echo "</table>";}
+echo "</table>";
+}
 }
 
  ?>
